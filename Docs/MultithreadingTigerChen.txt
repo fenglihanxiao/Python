@@ -1,0 +1,10 @@
+1. Single process with multi-threading (Assumption is that machine has one core)
+    1. Thread-A handle DB action
+    2. Thread-B handle UI operation, then UI does not freeze
+    3. A and B let OS does schedule work makes UI works and DB works happen concurrently.
+
+2. Multiple CPU (16 CPU with 32 cores)
+    1. copy 100000 file with sequential process takes 32 seconds.
+    2. Run with Multi-threading at number of 32, each thread bind with one core takes only 1 sec
+
+3. 多线程时序图

@@ -1,0 +1,199 @@
+﻿1. Find the library file path
+import os
+os.__file__
+'C:\\Program Files\\Python36\\lib\\os.py'
+
+    1. install [xxx].whl file
+    pip install greenlet-0.4.15-cp36-cp36m-win_amd64.whl
+
+Find the third party install path.
+==================================
+In [1]: import greenlet
+In [2]: greenlet.__file__
+Out[2]: 'c:\\program files\\python36\\lib\\site-packages\\greenlet.cp36-win_amd64.pyd'
+
+In [3]:
+
+2.
+def __call__(self):
+    print("这里是装饰器添加的功能.....")
+    return self.func()
+
+compare __iter__ and __next__ for Iterator
+
+3. Search for
+# System calls iter(classmate)
+
+4. search for file 182
+182_XXX -> Exception handling and else
+
+5.Beyond Compare 4 30天试用期后，破解方法。
+    在安装目录下找到文件BCUnrar.dll，比如：D:\software\Beyond Compare 4，重命名该文件即可。
+    重新启动，就可以正常使用了。
+    附：网上搜到的删除注册表的方法没有试验成功，这个亲测可以。
+
+6. Ctrl + W (close a browser tab)
+Ctrl + Q (close a browser)
+
+7. python file has Chinese characters
+    1. add #coding=utf-8 in first of line of python file
+
+8 。Module has red marks
+Right click -> Make Directory as -> Source Root
+
+9. Stanford DB ref files location
+E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\代码和截图\13-MySQL-2
+
+10. Ubuntu mysql
+1. Jump to head -> ctrl + a
+1. Jump to tail -> ctrl + e
+
+
+11. Mark down language
+typora
+
+
+12 vi Remove leading space
+4,10s/^ \+//
+
+13.
+    1. make a pointer at line4
+    2. ctrl + v
+    3. select block from 4 to 10 line
+    4. shift + I
+    5. Tab
+    6. double esc (batch job process)
+
+14. Ubuntu check hidden files
+ctrl + H
+
+15. vim v mode -> y and p.
+https://blog.csdn.net/hunter___/article/details/78662347
+
+16. Format """ """ string
+string_test.py
+
+17. Relation database demonstration
+    1. MySql and python interaction -> 3.9 Homework
+
+18. Ctrl + R (Reload)
+F5->cache content
+
+19. Reset version
+https://www.cnblogs.com/feimengv/p/10119791.html
+
+20. jquery_callback keyword
+
+20 Install gevent
+https://blog.csdn.net/baidu_32432903/article/details/73613660
+https://blog.csdn.net/weixin_34274029/article/details/85513847
+
+21。 Install flask. Please pay attention to does not need use sudo under Virtual_Env
+(py3_flask) python@ubuntu:~$ pip install flask==0.10.1
+
+22. Pycharm short cut
+ctr + mouse pointer -> go to definition
+ctr + p -> function parameters
+
+23. validate json format
+http://www.kjson.com/
+
+24. import package
+Alt + Enter
+
+25.
+>>> from demo3_regex import *
+>>> from demo3_regex import app
+>>> app.url_map
+Map([<Rule '/demo3' (HEAD, GET, OPTIONS) -> demo3>,
+ <Rule '/' (HEAD, GET, OPTIONS) -> index>,
+ <Rule '/static/<filename>' (HEAD, GET, OPTIONS) -> static>,
+ <Rule '/users/<user_ids>' (HEAD, GET, OPTIONS) -> demo2>,
+ <Rule '/user/<user_id>' (HEAD, GET, OPTIONS) -> demo1>])
+
+26. find port and kill
+sudo netstat -tunlp|grep -in 7890
+
+27. ubuntu start up file
+E:\FengLi_Files\Python\00.开班环境搭建\02.VMware-ubuntu16.04\VMware-ubuntu16.04\VMware-ubuntu16.04\ubuntu-16.04(20170220)\ubuntu-16.04
+
+28. Alt + Enter -> import required package
+Navigate -> class(Ctrl + N)
+
+29.
+http://127.0.0.1:5000/args?k1=v1&k2=feng
+
+30. Ctrl+ Y
+Ctrl + D
+
+31. DB relation
+https://blog.csdn.net/lengjinghk/article/details/52140276
+
+32. Python console does not work
+https://www.cnblogs.com/wangbaojun/p/10758407.html
+
+33.
+python@ubuntu:~$ service mysql -help
+Usage: /etc/init.d/mysql start|stop|restart|reload|force-reload|status
+
+34. Many to Many
+http://docs.jinkan.org/docs/flask-sqlalchemy/models.html#id4
+
+https://blog.csdn.net/liubin5620/article/details/78617895
+
+
+35. gitee account
+user_name:  fengli5588
+password:   78july26
+
+
+
+36. ctrl +shift + T (split a new terminal)
+ctrl + alt + T (new terminal)
+
+37. Ubuntu下简单快速设置Pycharm桌面快捷方式
+
+38. sogo 菜单显示
+
+39.进入自己主目录，按ctrl+h，就能看见以点号开头的隐藏文件
+
+40. Win->Ubuntun sync
+https://www.cnblogs.com/xiao-apple36/p/8587086.html
+
+41. /home/python/.virtualenvs
+
+42. redis-server --protected-mode no
+
+43. search for staruml v3.1.0
+https://www.cnblogs.com/applerosa/p/10488942.html
+
+
+44.news_db_design.mdj
+E:\FengLi_Files\Python\03视频资料V4.1\05python web后端开发阶段\V4.0web阶段课件代码\FlaskV4.0\Flask项目-第3天\news_db_design.mdj
+E:\FengLi_Files\Python\03视频资料V4.1\05python web后端开发阶段\V4.0web阶段课件代码\FlaskV4.0\Flask项目-第2天\02-其他资料\数据库关联的分析.mdj
+
+45. 自关联 (self join)
+E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\课件\Python高级-全部（html版）
+E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\代码和截图\13-MySQL-2\areas.sql
+
+46.
+E:\下载\BaiduYunDownload\03视频资料V5.0
+
+47. import static files
+E:\FengLi_Files\Python\03视频资料V4.1\05python web后端开发阶段\V4.0web阶段课件代码\FlaskV4.0\Flask项目-第1天\01-教学资源
+
+48. Pycharm activation code
+K6IXATEF43-eyJsaWNlbnNlSWQiOiJLNklYQVRFRjQzIiwibGljZW5zZWVOYW1lIjoi5o6I5p2D5Luj55CG5ZWGOiBodHRwOi8vaWRlYS5oay5jbiIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiIiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwiZmFsbGJhY2tEYXRlIjoiMjAxOS0wNi0wNSIsInBhaWRVcFRvIjoiMjAyMC0wNi0wNCJ9LHsiY29kZSI6IkFDIiwiZmFsbGJhY2tEYXRlIjoiMjAxOS0wNi0wNSIsInBhaWRVcFRvIjoiMjAyMC0wNi0wNCJ9LHsiY29kZSI6IkRQTiIsImZhbGxiYWNrRGF0ZSI6IjIwMTktMDYtMDUiLCJwYWlkVXBUbyI6IjIwMjAtMDYtMDQifSx7ImNvZGUiOiJQUyIsImZhbGxiYWNrRGF0ZSI6IjIwMTktMDYtMDUiLCJwYWlkVXBUbyI6IjIwMjAtMDYtMDQifSx7ImNvZGUiOiJHTyIsImZhbGxiYWNrRGF0ZSI6IjIwMTktMDYtMDUiLCJwYWlkVXBUbyI6IjIwMjAtMDYtMDQifSx7ImNvZGUiOiJETSIsImZhbGxiYWNrRGF0ZSI6IjIwMTktMDYtMDUiLCJwYWlkVXBUbyI6IjIwMjAtMDYtMDQifSx7ImNvZGUiOiJDTCIsImZhbGxiYWNrRGF0ZSI6IjIwMTktMDYtMDUiLCJwYWlkVXBUbyI6IjIwMjAtMDYtMDQifSx7ImNvZGUiOiJSUzAiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiUkMiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiUkQiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiUEMiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiUk0iLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiV1MiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiREIiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiREMiLCJmYWxsYmFja0RhdGUiOiIyMDE5LTA2LTA1IiwicGFpZFVwVG8iOiIyMDIwLTA2LTA0In0seyJjb2RlIjoiUlNVIiwiZmFsbGJhY2tEYXRlIjoiMjAxOS0wNi0wNSIsInBhaWRVcFRvIjoiMjAyMC0wNi0wNCJ9XSwiaGFzaCI6IjEzMjkyMzQwLzAiLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-f8GvMiFGxAImRG8KKudyJDmZkDYD5fQiMOSFnBEMuAkeHjkq3rcj19hqQ1OS9nLCO4RvhRMINgYtKi3jVeZADAf6HKMnzDisWECB7ms8EgZoWOzTdKi3vw2pCpck5k6U6RXJmFlebIIbjA/KrzlPCPt9BfMZQ9NN5OdXDYXN9ZCvgG3vt5S0ZShPDNMQllSJt8OSerE1daj+nOP8f6WiUpgrYkHwydzF/NBlejdjvkMZp3iCk+ylKhYW5OgfnChCwWEyEmmIaNj4xYyeL3WMLqHm82Uo3bQnKkUU8eO0WOmJPfO2NGrVIeM5SEl1iu8odKX4fes5u+duTRCKjbDLAg==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQAF8uc+YJOHHwOFcPzmbjcxNDuGoOUIP+2h1R75Lecswb7ru2LWWSUMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+9zMUW596Lbomsg8qVve6euqsrFicYkIIuUu4zYPndJwfe0YkS5nY72SHnNdbPhEnN8wcB2Kz+OIG0lih3yz5EqFhld03bGp222ZQCIghCTVL6QBNadGsiN/lWLl4JdR3lJkZzlpFdiHijoVRdWeSWqM4y0t23c92HXKrgppoSV18XMxrWVdoSM3nuMHwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
+
+49. https: (port 443)
+http:(port 80)
+
+50. XML & JSON
+https://www.jianshu.com/p/2758e8da1948
+
+E:\FengLi_Files\Python\03视频资料V5.0\阶段2-python和Linux 高级编程、阶段3-前端开发\代码以及其他\02-第14天{mini-Web框架}\04-代码\JasonTest.html
+E:\FengLi_Files\StudyPython\Module03\JsonTest.py
+
+51. Github account
+username: fengli5588
+pwd:      Sbctr_001#

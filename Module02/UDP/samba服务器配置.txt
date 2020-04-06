@@ -1,0 +1,34 @@
+
+
+1. windows和linux 之间如何 共享文件-----samba服务器
+
+    安装
+        apt-get install samba
+        apt-get install smbclient
+
+    修改配置文件
+        打开 /etc/samba/smb.conf
+        末尾添加：
+            [share]
+                path = /home/python/smb_share
+                browseable = yes
+                available = yes
+                writable = yes
+                public = yes
+                read only = No   
+
+    cd ~
+    mkdir smb_share
+    sudo chmod 777 smb_share -R
+    service smbd restart 重启服务
+
+    # 通过 \\+ip地址 访问
+    # 以上配置的 匿名访问的方式，也就是说不需要用户名和密码。win10系统，如果让你 输入用户名密码，
+    #  用户名直接写 guest 密码不用写。
+
+    # win10 需要先开启 来宾用户访问。（如果死活登录不进去）
+
+    # 按window+R键输入gpedit.msc 来启动本地组策略编辑器。 
+    # 依次找到“计算机配置-管理模板-网络-Lanman工作站”这个节点，在右侧内容区可以看到“启用不安全的来宾登录”这一条策略设置。状态是“未配置”。 
+    # 双击“启用不安全的来宾登录”这一条策略设置，将其状态修改为“已启用”并单击确定按钮。 
+    # 设置完成再次尝试访问发现可以正常访问了。

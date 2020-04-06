@@ -1,0 +1,20 @@
+
+function a() {
+    // lambda 表达式可以直接复制给一个变量
+    const f = (x, y) => x + y
+
+    console.log(b(20, f))   // b 函数调用的时候，f 作为参数提供
+    console.log(b(20, (x, y) => x + y))     // lambda 表达式也可以直接给出
+}
+
+function b(a, f) {
+    if (a > 10) {
+        return a + f(a, 5)      // b 函数应该在适当的时机调用传递过来的 f 函数
+    }
+    else {
+        return a ** 2
+    }
+}
+
+a()    // 开始执行 a 函数
+
