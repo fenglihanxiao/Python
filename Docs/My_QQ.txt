@@ -6,11 +6,15 @@ CSDN
 username:
 fenglihanxiao
 
-pwd��
+pwd
 Sbctr_001#
 
+Github
+=============================
 email:
 fenglihanxiao@qq.com
+pwd:
+Sbctr_001#
 
 # Crack Pycharm
 https://www.cnblogs.com/pandaly/p/12019245.html
