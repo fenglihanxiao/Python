@@ -75,6 +75,7 @@ string_test.py
 
 17. Relation database demonstration
     1. MySql and python interaction -> 3.9 Homework
+    2. E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\代码和截图\15-Mysql-Python-Interaction
 
 18. Ctrl + R (Reload)
 F5->cache content
