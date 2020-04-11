@@ -74,8 +74,9 @@ https://blog.csdn.net/hunter___/article/details/78662347
 string_test.py
 
 17. Relation database demonstration
-    1. MySql and python interaction -> 3.9 Homework
+    1. MySql and python interaction -> 3.9 Homework，
     2. E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\代码和截图\15-Mysql-Python-Interaction
+    3. Video 06-03-09:Homework requirement
 
 18. Ctrl + R (Reload)
 F5->cache content
@@ -198,3 +199,7 @@ E:\FengLi_Files\StudyPython\Module03\JsonTest.py
 51. Github account
 username: fengli5588
 pwd:      Sbctr_001#
+
+52.
+ret = re.match(r"[^/]+(/[^ ]*)", request_lines[0])
+    1. video 4-3-08
