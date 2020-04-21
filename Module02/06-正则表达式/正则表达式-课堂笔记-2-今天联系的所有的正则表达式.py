@@ -109,6 +109,7 @@ sdf
 asdf"""
 print(html_content)
 re.match(r".*", html_content).group()
+# https://docs.python.org/3/library/re.html#re.DOTALL
 re.match(r".*", html_content, re.S).group()
 re.match(r".*", "a").group()
 re.match(r".*", "a1").group()

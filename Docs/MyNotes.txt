@@ -201,5 +201,12 @@ username: fengli5588
 pwd:      Sbctr_001#
 
 52.
+# GET /index.html HTTP/1.1  从请求报文的第一行 就是请求行
 ret = re.match(r"[^/]+(/[^ ]*)", request_lines[0])
     1. video 4-3-08
+
+53. Cookies
+chrome://settings/content/cookies
+
+54.
+E:\FengLi_Files\Python\03视频资料V4.1\03python和linux高级编程阶段\代码和截图\16-WSGI、mini_frame（web框架）\web服务器示意图

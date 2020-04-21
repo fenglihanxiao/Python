@@ -16,6 +16,9 @@ def service_client(new_socket):
     response += "\r\n"
     # 2.2 准备发送给浏览器的数据---boy
     response += "hahahhah"
+    response += "\r\n"
+    response += "lolollll"
+
     new_socket.send(response.encode("utf-8"))
 
     # 关闭套接字

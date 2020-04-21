@@ -8,7 +8,7 @@ def service_client(new_socket):
     # GET / HTTP/1.1
     # .....
     request = new_socket.recv(1024)
-    print(request)
+    print("=================", request)
 
     # 2. 返回http格式的数据，给浏览器
     # 2.1 准备发送给浏览器的数据---header

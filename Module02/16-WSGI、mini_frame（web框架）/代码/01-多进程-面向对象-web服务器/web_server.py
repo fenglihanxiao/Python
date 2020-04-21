@@ -66,10 +66,8 @@ class WSGIServer(object):
             # 将response body发送给浏览器
             new_socket.send(html_content)
 
-
         # 关闭套接
         new_socket.close()
-        
 
     def run_forever(self):
         """用来完成整体的控制"""
