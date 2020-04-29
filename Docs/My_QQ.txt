@@ -38,3 +38,7 @@ E:\FengLi_Files\Python\03视频资料V4.1\05python web后端开发阶段\V4.0web
 doskey /history
 
 # Inner join demostration
+
+# Baidu network drive
+Uname:18027651864
+Pwd: Sbctr_001#
